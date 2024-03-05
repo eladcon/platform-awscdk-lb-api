@@ -1,0 +1,26 @@
+{
+  "name": "platform-awscdk-lb-api",
+  "version": "1.0.0",
+  "type": "commonjs",
+  "description": "",
+  "scripts": {
+    "build": "tsup",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "main": "./lib/index.js",
+  "exports": {
+    ".": "./src/index.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@winglang/platform-awscdk": "^0.59.25",
+    "@winglang/sdk": "^0.59.25",
+    "aws-cdk-lib": "^2.124.0",
+    "constructs": "^10.3.0",
+    "tsup": "^8.0.2",
+    "typescript": "^5.3.3",
+    "winglang": "^0.59.25"
+  }
+}
